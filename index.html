@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Touch Typing Practice</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Touch Typing Practice</h1>
+  <div id="typing-box" class="animate">
+
+    <p id="instruction">Type the keys shown below:</p>
+    <p id="keys"></p>
+    <input type="text" id="input-box" autofocus>
+    <div id="stats">
+      <div class="stat">
+        <p id="keys-typed">Keys Typed: 0</p>
+        <p id="typing-speed">Typing Speed: 0 WPM</p>
+      </div>
+      <div class="stat">
+        <canvas id="accuracy-graph" width="120" height="120"></canvas>
+        <p id="accuracy-percent">0%</p>
+        <p id="accuracy-label">Accuracy</p>
+      </div>
+      <div class="stat">
+        <p id="typing-speed-box">Typing Speed: 0 WPM</p>
+      </div>
+    </div>
+    <div id="completion-msg"></div>
+  </div>
+  <footer>
+    <div id="typing-box" class="typing-box"></div>
+
+    <p id="kapil-name">Kapil</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

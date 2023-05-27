@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #1e262e, #0c0f15);
+    color: #fff;
+  }
+  
+  h1 {
+    margin-top: 30px;
+  }
+  
+  #typing-box {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    padding: 40px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #293542;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  #typing-box.animate {
+    animation: glow 2s infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    }
+    100% {
+      box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  #instruction {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #keys {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  #input-box {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #stats {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stat {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  #keys-typed, #typing-speed, #accuracy-percent, #typing-speed-box {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #accuracy-graph {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #accuracy-percent {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #accuracy-label {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  #completion-msg {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5cb85c;
+    margin-top: 20px;
+    display: none;
+  }
+  
+  footer {
+    margin-top: 50px;
+  }
+  
+  #kapil-name {
+    font-size: 14px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  footer:hover #kapil-name {
+    opacity: 1;
+  }
+  
+
+
+  
